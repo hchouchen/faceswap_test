@@ -34,4 +34,5 @@ maskB(faceB经过3ddfa输出的mask):10051712212800XXXXHFSD00025rotresize_0234.j
 from pose import getPoses
 mask, pose = getPoses(img)
 ```
-其中mask为3ddfa生成的mask图片，pose为[yaw, pitch, roll]
+其中mask为3ddfa生成的mask图片，pose为[yaw, pitch, roll]  
+此函数用来为与RNR结合提供便利
