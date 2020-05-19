@@ -2,7 +2,10 @@
 ## 
  `python main.py [--options_lowpass true or false] [--options_coladj true or false] [--swp_rootpath ''] [--ori_rootpath ''] [--maskA_path ''] [--maskB_path ''] [--save_path '']`  
    
-其中  
+其中
+faceA/swp-img:    换脸后rnr输出图片  
+faceB/ori-img:    原始图片  
+将faceA贴到faceB上  
 options_lowpass: 是否使用低通滤波  
 options_coladj:  是否使用颜色校正  
 --ori_rootpath:  原始图片faceB文件夹目录  
