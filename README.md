@@ -27,7 +27,7 @@ maskB(faceB经过3ddfa输出的mask):10051712212800XXXXHFSD00025rotresize_0234.j
 需要保证:  
 1. ori-img和maskB图片名最后是帧序号  
 2. swp-img和maskA图片名最后是帧序号_0  
-如果不满足也没关系，只需修改utils.py中的matchDir即可，如有问题请及时联系作者  
+如果不满足也没关系，只需修改util.py中的matchDir即可，如有问题请及时联系作者  
 
 ### pose接口 
 ```
