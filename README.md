@@ -8,10 +8,10 @@ faceB/ori-img:    原始图片
 将faceA贴到faceB上  
 options_lowpass: 是否使用低通滤波  
 options_coladj:  是否使用颜色校正  
---ori_rootpath:  原始图片faceB文件夹目录  
---maskB_path:    换脸后图片faceB经过3ddfa生成的mask文件夹目录  
 --swp_rootpath:  换脸后图片faceA文件夹目录  
---maskA_path:    原始图片faceA对应3ddfa生成的mask的文件夹目录  
+--maskA_path:    换脸后图片faceA对应3ddfa生成的mask的文件夹目录  
+--ori_rootpath:  原始图片faceB文件夹目录  
+--maskB_path:    原始图片faceB经过3ddfa生成的mask文件夹目录  
 --save_path:     存储图片的地址    
   
   
