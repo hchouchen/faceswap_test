@@ -136,14 +136,14 @@ def main(args):
         warp_maskA = cv2.warpAffine(maskA, M, (faceB.shape[1],faceB.shape[0]))
 
         if args.options_coladj:
-            hsv_faceA = cv2.cvtColor(warp_faceA,cv2.COLOR_BGR2HSV)
-            hsv_faceB = cv2.cvtColor(maskB*faceB,cv2.COLOR_BGR2HSV)
+            hsv_faceA = cv2.cvtColor(warp_faceA,cv2.COLOR_BGR2LAB)
+            hsv_faceB = cv2.cvtColor(maskB*faceB,cv2.COLOR_BGR2LAB)
             for i in range(len(hsv_faceA)):
                 for j in range(len(hsv_faceA[0])):
                     if maskB[i,j,0] != 0:
                         hsv_faceA[i,j,0] = int(hsv_faceB[i,j,0]*0.5+hsv_faceA[i,j,0]*0.5)
                         hsv_faceA[i,j,1] = int(hsv_faceB[i,j,1]*0.5+hsv_faceA[i,j,1]*0.5)
-            col_faceA = cv2.cvtColor(hsv_faceA,cv2.COLOR_HSV2BGR)
+            col_faceA = cv2.cvtColor(hsv_faceA,cv2.COLOR_LAB2BGR)
         else:
             col_faceA = warp_faceA
 
