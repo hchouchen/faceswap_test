@@ -19,7 +19,7 @@ options_coladj:  是否使用颜色校正
   
   
 例如:   
-`python main.py --options_lowpass true --options_coladj true --ori_root '../data/raw_fullbody/280' --maskB_path '../data/3ddfa_faceB_280' --swp_rootpath '../data/swp-rnr/280/aligned' --maskA_path '../data/3ddfa_faceA_280' --save_path '../data/result_lowpass_280'` --profile_img_path '../data/1.png' --profile_mask_path '../data/3ddfamask_1.png'
+`python main.py --options_lowpass true --options_coladj true --ori_root '../data/raw_fullbody/280' --maskB_path '../data/3ddfa_faceB_280' --swp_rootpath '../data/swp-rnr/280/aligned' --maskA_path '../data/3ddfa_faceA_280' --save_path '../data/result_lowpass_280' --profile_img_path '../data/1.png' --profile_mask_path '../data/3ddfamask_1.png'`
 
 ### 图片命名示例（与data文件夹里图片的命名规则完全一致）  
 swp-img(faceA即换脸后图片):yaw_-0.04_yaw_0.0_10051712212800XXXXHFSD00025rotresize_0314_0.png  
