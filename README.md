@@ -11,11 +11,11 @@ options_coladj:  是否使用颜色校正
 --swp_rootpath:  换脸后图片faceA文件夹目录  
 --maskA_path:    换脸后图片faceA对应3ddfa生成的mask的文件夹目录  
 --ori_rootpath:  原始图片faceB文件夹目录  
---maskB_path:    原始图片faceB经过3ddfa生成的mask文件夹目录  
---profile_img_path:    侧脸>80度时替换的图片路径
---profile_mask_path:    侧脸>80度时替换的图片mask路径
+--maskB_path:    原始图片faceB经过3ddfa生成的mask文件夹目录    
+--profile_img_path:    侧脸>80度时替换的图片路径  
+--profile_mask_path:    侧脸>80度时替换的图片mask路径  
 --save_path:     存储图片的地址    
---mode:    'cpu' or 'cuda'
+--mode:    'cpu' or 'cuda'  
   
   
 例如:   
